@@ -19,3 +19,26 @@ body {
     @apply text-sm font-medium cursor-pointer bg-gradient-to-r from-primary to-[#D5AA12] hover:-translate-y-1 shadow-large shadow-transparent hover:shadow-primary/[35%] text-black border border-primary py-3 px-4 rounded-md transition-all duration-300;
   }
 }
+
+.accordion-item {
+  overflow: hidden;
+  height: 100%;
+}
+
+.accordion-title {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  padding: 0 10px;
+  color: transparent;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+}
+
+.accordion-item:hover .accordion-content {
+  max-height: 100px; /* Adjust based on your content */
+  padding: 0 10px 1rem 10px;
+  color: #ffffff;
+}

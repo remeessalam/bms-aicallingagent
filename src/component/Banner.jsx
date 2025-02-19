@@ -64,13 +64,13 @@ const Banner = ({ introVidIsPlaying, setIntroVidIsPlaying }) => {
               height="100%"
               pip={false}
               onReady={() => setIsVideoLoading(false)}
-              playsinline={true}
+              playsInline={true}
               config={{
                 file: {
                   attributes: {
                     controlsList: "nodownload noplaybackrate",
                     disablePictureInPicture: true,
-                    playsinline: true,
+                    playsInline: true,
                   },
                 },
               }}

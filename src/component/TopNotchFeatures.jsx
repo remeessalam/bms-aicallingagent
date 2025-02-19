@@ -32,7 +32,7 @@ const TopNotchFeatures = () => {
               //   con/st Icon = icon;
               return (
                 <div
-                  className="p-5 bg-black w-[45%] flex flex-col items-center text-center gap-2 hover:border-t-4 border-primary transition-all duration-150"
+                  className="p-5 bg-black md:w-[45%] flex flex-col items-center text-center gap-2 hover:border-t-4 border-primary transition-all duration-150"
                   key={id}
                 >
                   <div className="w-[3.5rem] h-[3.5rem] rounded-full bg-white flex items-center justify-center">
