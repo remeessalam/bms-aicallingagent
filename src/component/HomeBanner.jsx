@@ -35,10 +35,7 @@ const HomeBanner = () => {
           />
         </div>
         <div className="wrapper h-fit">
-          <Banner
-            introVidIsPlaying={introVidIsPlaying}
-            setIntroVidIsPlaying={setIntroVidIsPlaying}
-          />
+          <Banner />
         </div>
       </div>
     </div>

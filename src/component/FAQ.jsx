@@ -5,39 +5,41 @@ import { Link } from "react-router-dom";
 
 const faqs = [
   {
-    question: "What services do you offer to help build an AI company?",
+    question: "How does the AI handle inbound and outbound calls?",
     answer:
-      "We provide end-to-end services, including AI strategy consultation, product development, business model creation, and market entry support. We guide you from ideation to product launch.",
+      "Our AI system can initiate outbound calls for sales, reminders, or follow-ups, and also handle inbound calls by answering queries, gathering information, and transferring calls when needed.",
   },
   {
-    question: "Do I need technical knowledge to start an AI company?",
+    question: "Can I customize the scripts for calls?",
     answer:
-      "No, you don’t need technical expertise. Our team of AI experts will handle the technical aspects while you focus on the business vision and strategy.",
+      "Yes, you can fully customize the AI's call scripts to match your business needs, tone, and customer interaction style. We also offer script optimization for better engagement.",
   },
   {
-    question: "How long does it take to launch an AI product?",
+    question: "How does the AI manage appointment scheduling?",
     answer:
-      "The timeline varies, but typically it takes 3 to 6 months to develop a Minimum Viable Product (MVP) and begin the launch process.",
+      "The AI integrates with your calendar and scheduling tools to book, reschedule, or cancel appointments. It ensures time slot availability and sends reminders to reduce no-shows.",
   },
   {
-    question: "How do I know if my AI idea is feasible?",
+    question: "Is the call log and conversation tracking secure?",
     answer:
-      "We offer an initial consultation to evaluate your idea's feasibility, its market potential, and provide feedback on how to refine it for success.",
+      "Yes, we use end-to-end encryption and secure cloud storage to protect call logs and conversation data, ensuring compliance with privacy regulations like GDPR and HIPAA.",
   },
   {
-    question: "What types of AI solutions can you help develop?",
+    question: "Can I access call logs and appointment details at any time?",
     answer:
-      "We help build various AI solutions, including chatbots, recommendation systems, computer vision applications, and more. We tailor each project to your unique needs.",
+      "Absolutely! You will have a dashboard where you can review call logs, listen to recordings, track appointment schedules, and analyze AI-driven insights in real-time.",
   },
   {
-    question: "What kind of data is required to build an AI solution?",
+    question:
+      "How quickly can I get started with the AI call handling solution?",
     answer:
-      "AI solutions require high-quality data, depending on the project. We assist in collecting, preprocessing, and using relevant data for training the model.",
+      "Getting started is easy! After an initial consultation, setup can take as little as a few days, depending on customization requirements and integrations.",
   },
   {
-    question: "How do I get started?",
+    question:
+      "Does the AI integrate with other tools I use, like CRMs or calendars?",
     answer:
-      "Simply schedule a free consultation with us to discuss your idea. We will outline how we can help turn your vision into a successful AI company.",
+      "Yes, our AI seamlessly integrates with popular CRMs, scheduling tools, and customer support platforms, ensuring smooth workflow automation for your business.",
   },
 ];
 

@@ -15,14 +15,22 @@ const WhatItDo = () => {
           complaints, and booking calls so you can focus on growing your
           business and reclaiming your time.
         </p>
-        <div className="grid sm:grid-cols-2 gap-5 mt-5">
+        <div className="grid sm:grid-cols-2 gap-5 sm:gap-14 mt-5">
           {whatitdo.map((item, index) => (
             <div
-              className="accordion-item h-full bg-[#111111] text-center flex flex-col justify-center"
               key={index}
+              className={`accordion-item h-full bg-[#111111] text-center flex flex-col justify-center p-5 rounded-lg 
+        ${index % 2 !== 0 ? "sm:mt-5" : ""} 
+        ${
+          index === whatitdo.length - 1
+            ? "sm:col-span-2 mx-auto w-full sm:w-2/3 sm:mt-5"
+            : ""
+        }`}
             >
-              <p className="accordion-title text-xl">{`${item.title}`}</p>
-              <p className="accordion-content">{item.desc}</p>
+              <p className="accordion-title text-xl font-semibold text-white">
+                {item.title}
+              </p>
+              <p className="accordion-content text-gray-400">{item.desc}</p>
             </div>
           ))}
         </div>
